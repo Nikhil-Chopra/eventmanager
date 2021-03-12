@@ -1,0 +1,26 @@
+.cards {
+    background-color: yellow;
+    
+    background-color: #b8f191;
+    background-image: linear-gradient(to left, #dde692 0%, #f1f395 74%);
+    
+  padding: "1.6rem";
+}
+
+.SideLocation {
+    background-image: linear-gradient(to right, #000000 0%, #5e5368 74%);
+}
+h1{
+    font-family: cursive;
+}
+.MainContainer{
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px){
+    
+    
+    .MainContainer{
+        flex-direction: column-reverse;
+    }
+    }
